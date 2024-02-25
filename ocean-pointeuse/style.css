@@ -1,0 +1,68 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #040d24;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background-image: url('logo.jpg');
+    background-size: cover;
+    filter: blur(10px);
+    /* Appliquer un flou */
+}
+
+.google-font1 {
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.google-font2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+  background-color: whitesmoke; /* Green */
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+input{
+    background-color: whitesmoke; /* Green */
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
