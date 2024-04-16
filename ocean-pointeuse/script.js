@@ -88,12 +88,13 @@ function compareGrades(gradeA, gradeB) {
         "PRTC": 7,
         "INT": 8,
         "MED": 9,
-        "MED-U": 10,
-        "MED-C": 11,
-        "RESP-E": 12,
-        "CADRE": 13,
-        "CO-DIR": 14,
-        "DIR": 15
+        "MED-I": 10;
+        "MED-U": 11,
+        "MED-C": 12,
+        "RESP-E": 13,
+        "CADRE": 14,
+        "CO-DIR": 15,
+        "DIR": 16
     };
 
     if (gradeOrder[gradeA] < gradeOrder[gradeB]) {
@@ -201,6 +202,7 @@ function checkPrimeEligibility(grade, time) {
         case "PRTC":
         case "INT":
         case "MED":
+        case "MED-I":
         case "MED-U":
         case "MED-C":
         case "RESP-E":
